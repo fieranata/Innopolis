@@ -1,0 +1,78 @@
+.wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: palegoldenrod
+}
+.main {
+    display: flex;
+}
+.main-photo {
+    width: 400px;
+}
+.main_inner {
+    padding-left: 70px;
+}
+.main_iner-titl {
+    margin-bottom: 20px;
+    color: blue;
+    font-size: 32px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main_inner-city {
+    display: inline-block;
+    margin-bottom: 50px;
+    color: blueviolet;
+    font-size: 16px;
+}
+.main_inner-item {
+    margin-bottom: 20px;
+    color: rgb(138, 43, 226);
+    font-size: 30px;
+}
+.main_inner-advantes {
+    display: flex;
+    margin-bottom: 50px;
+}
+.main_inner-description {
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+text-indent: 30px;
+}
+.list_item {
+    display: block;
+    background-color: aqua;
+    padding: 14px 55px;
+    border-radius: 50px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 20px;
+}
+.main_iner-text {
+    margin-bottom: 20px;
+    color: rgb(138, 43, 226);
+    font-size: 30px;
+}
+.display {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    box-sizing: border-box
+    width: 1300px;
+    min: height 60px;
+margin:0 auto;
+padding: 0 16px;
+justify-content: center;
+background-color: blueviolet;
+}
